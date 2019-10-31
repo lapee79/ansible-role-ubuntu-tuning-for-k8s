@@ -1,0 +1,8 @@
+---
+- include: sysctl.yml
+
+- include: pam-limits.yml
+
+- include: optimize-ssds.yml
+
+- include: grub.yml

@@ -1,0 +1,1 @@
+ACTION=="add|change", KERNEL=="{{ ssd_device_name }}", ATTR{queue/rotational}="{{ ssd_queue_rotational }}", ATTR{queue/scheduler}="{{ ssd_queue_scheduler }}", ATTR{bdi/read_ahead_kb}="{{ ssd_bdi_device_readahead }}", ATTR{queue/nr_requests}="{{ ssd_nr_requests }}"
