@@ -1,5 +1,7 @@
 ---
-- hosts: localhost
-  remote_user: root
+- hosts: kube-node
+  become: true
   roles:
-    - ubuntu-tuning-for-k8s
+    - name: ubuntu-tuning-for-k8s
+      tags:
+      - haproxy-keepalived-for-k8s-masters-ha
