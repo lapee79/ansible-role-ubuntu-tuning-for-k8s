@@ -4,4 +4,5 @@
   roles:
     - name: ubuntu-tuning-for-k8s
       tags:
-      - haproxy-keepalived-for-k8s-masters-ha
+      - ubuntu
+      - kubernetes
