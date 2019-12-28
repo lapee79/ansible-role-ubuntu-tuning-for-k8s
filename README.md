@@ -20,7 +20,7 @@ Including an example of how to use your role (for instance, with variables passe
 
 ```yaml
 ---
-- hosts: kube-node
+- hosts: all
   become: true
   roles:
     - name: ubuntu-tuning-for-k8s

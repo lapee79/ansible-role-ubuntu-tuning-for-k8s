@@ -1,5 +1,5 @@
 ---
-- hosts: kube-node
+- hosts: all
   become: true
   roles:
     - name: ubuntu-tuning-for-k8s
